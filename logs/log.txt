@@ -1,0 +1,64 @@
+Desicion Tree Classifier
+Accuracy score: 0.75
+Confusion matrix: 
+[[115  35]
+ [ 40 110]]
+Classification report: 
+              precision    recall  f1-score   support
+
+           0       0.74      0.77      0.75       150
+           1       0.76      0.73      0.75       150
+
+    accuracy                           0.75       300
+   macro avg       0.75      0.75      0.75       300
+weighted avg       0.75      0.75      0.75       300
+
+
+Random Forest Classifier
+Accuracy score: 0.85
+Confusion matrix: 
+[[120  30]
+ [ 15 135]]
+Classification report: 
+              precision    recall  f1-score   support
+
+           0       0.89      0.80      0.84       150
+           1       0.82      0.90      0.86       150
+
+    accuracy                           0.85       300
+   macro avg       0.85      0.85      0.85       300
+weighted avg       0.85      0.85      0.85       300
+
+
+Gaussian classifier
+Accuracy score: 0.7233333333333334
+Confusion matrix: 
+[[142   8]
+ [ 75  75]]
+Classification report: 
+              precision    recall  f1-score   support
+
+           0       0.65      0.95      0.77       150
+           1       0.90      0.50      0.64       150
+
+    accuracy                           0.72       300
+   macro avg       0.78      0.72      0.71       300
+weighted avg       0.78      0.72      0.71       300
+
+
+Logistic Regression
+Accuracy score: 0.8566666666666667
+Confusion matrix: 
+[[130  20]
+ [ 23 127]]
+Classification report: 
+              precision    recall  f1-score   support
+
+           0       0.85      0.87      0.86       150
+           1       0.86      0.85      0.86       150
+
+    accuracy                           0.86       300
+   macro avg       0.86      0.86      0.86       300
+weighted avg       0.86      0.86      0.86       300
+
+
